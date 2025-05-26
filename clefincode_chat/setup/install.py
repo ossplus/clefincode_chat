@@ -4,7 +4,7 @@ import subprocess
 def after_install(): 
     create_roles()   
     create_users_profiles()
-    install_ffmpeg()
+#    install_ffmpeg()
 # =================================================================================
 def create_roles():
     if not frappe.db.exists("Role", "Chat Support"):
